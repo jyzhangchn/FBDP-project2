@@ -43,11 +43,11 @@ public class TestKNN {
      */
     public static void main(String[] args) {
         TestKNN t = new TestKNN();
-        String datafile = new File("").getAbsolutePath() + File.separator + "knntrain***.txt";
-        String testfile = new File("").getAbsolutePath() + File.separator + "knndata***.txt";
+        String datafile = new File("").getAbsolutePath() + File.separator + "KNN/knn_train.txt";
+        String testfile = new File("").getAbsolutePath() + File.separator + "KNN/knn_data.txt";
         String INPUT_PATH = ("/Users/apple/Downloads/股票编号.txt");
         File file = new File(INPUT_PATH);
-        File file1 = new File("knn_out***.txt");
+        File file1 = new File("knn_out.txt");
         try {
             List<List<Double>> datas = new ArrayList<List<Double>>();
             List<List<Double>> testDatas = new ArrayList<List<Double>>();

@@ -8,11 +8,6 @@ import java.util.PriorityQueue;
 
 /**
  * KNN算法主体类
- * @author Rowen
- * @qq 443773264
- * @mail luowen3405@163.com
- * @blog blog.csdn.net/luowen3405
- * @data 2011.03.25
  */
 public class KNN {
     /**

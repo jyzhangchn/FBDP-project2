@@ -154,7 +154,6 @@ public class TfIdf {
                 }
             }
         }
-        System.out.println("IDF for every word is:");
         Iterator iter_dict = dict.entrySet().iterator();
         while(iter_dict.hasNext()){
             Map.Entry entry = (Map.Entry)iter_dict.next();
@@ -196,7 +195,7 @@ public class TfIdf {
                 return o2.getValue().compareTo(o1.getValue());
             }
         });
-        //排序靠前的60个词及权值
+        //排序靠前的600个词及权值
         if (list.size()>600) {
             for (int i = 0; i < 599; i++) {
                 //写入文件
@@ -233,7 +232,6 @@ public class TfIdf {
         String inputpath = "/Users/apple/Documents/FBDP/project2/segment/";
         String outpath="tfidf_train/";
         HashMap<String,HashMap<String, Float>> all_tf = tfAllFiles(inputpath);
-        System.out.println();
         HashMap<String, Float> idfs = idf(all_tf);
         tf_idf(all_tf,idfs,outpath);
 

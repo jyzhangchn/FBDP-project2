@@ -1,11 +1,6 @@
 
 /**
  * KNN结点类，用来存储最近邻的k个元组相关的信息
- * @author Rowen
- * @qq 443773264
- * @mail luowen3405@163.com
- * @blog blog.csdn.net/luowen3405
- * @data 2011.03.25
  */
 public class KNNNode {
     private int index; // 元组标号
