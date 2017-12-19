@@ -36,7 +36,7 @@
 
 
 ## 程序说明
-###数据预处理
+### 数据预处理
 #### segment.java
 
 - 对新闻标题和样本集的内容进行分词
@@ -281,8 +281,4 @@ public static void classify(String classifyName, Instances train, String result)
   
 随机森林:
  ![](https://github.com/jyzhangchn/FBDP-project2/raw/master/img-for-md/15137056390891.jpg) 
-
-
-https://github.com/jyzhangchn/FBDP-project2/raw/master/img-for-md/***.png or***.jpg
-
 
